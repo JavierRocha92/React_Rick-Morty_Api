@@ -1,0 +1,18 @@
+menu{
+    width: 100%;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    list-style: none;
+}
+.list__item{
+    text-decoration: none;
+    margin: 10px;
+    color: gray;
+    font-variant: small-caps;
+}
+.list__item:hover{
+    color: black;
+}

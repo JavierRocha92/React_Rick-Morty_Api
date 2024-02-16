@@ -1,0 +1,15 @@
+.container__characters{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.actor{
+  width: 15rem;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+.actor__image{
+  width: 100%;
+}

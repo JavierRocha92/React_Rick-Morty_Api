@@ -1,0 +1,29 @@
+
+.container__episodes{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card__episode {
+  width: 15rem;
+  border-radius: 0.25rem;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.card__episode:hover{
+  background-color: rgb(226, 226, 243);
+  cursor:pointer;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.episodeCard__image{
+  width: 100px;
+}
+.episodeCard__content{
+  gap: 20px;
+}
